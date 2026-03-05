@@ -16,8 +16,8 @@ async function check(names) {
     const buf = await d.get(data.key)
     try {
       const pkg = JSON.parse(buf)
-      if (names.includes(pkg.name) && pkg.version) {
-        console.log(pkg.name, pkg.version, new Date(data.mtime), data.key)
+      if (names.includes(pkg.name) && pkg._id) {
+        console.log(pkg.name, pkg['dist-tags'], new Date(data.mtime), data.key)
       }
     } catch {}
   }
