@@ -1,0 +1,22 @@
+{
+  "name": "check-npm-cache",
+  "version": "0.0.0",
+  "description": "Check if a module is in your cache",
+  "main": "index.js",
+  "dependencies": {
+    "localdrive": "^2.2.0"
+  },
+  "bin": {
+    "check-npm-cache": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/check-npm-cache.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mafintosh/check-npm-cache/issues"
+  },
+  "homepage": "https://github.com/mafintosh/check-npm-cache"
+}
